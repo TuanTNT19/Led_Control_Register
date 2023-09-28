@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'Control_led_by_register' 
- * Target:  'Control_led_by_register' 
+ * Project: 'Test_FreeRtos' 
+ * Target:  'Test_FreeRtos' 
  */
 
 #ifndef RTE_COMPONENTS_H

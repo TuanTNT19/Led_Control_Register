@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Tuan Nho, Hust, LIC=RC93N-YE58X-WFZI7-EF3NW-RX7RQ-6JU0E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  D:\KeiC_pack\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\stm32project\Test_FreeRtos\MDK-ARM\Test_FreeRtos.uvprojx
+Project File Date:  09/28/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\KeiC_pack\ARM\ARMCC\Bin'
+Build target 'Test_FreeRtos'
+compiling main.c...
+..\Lib\ADC.h(4): warning:  #1295-D: Deprecated declaration ADC1_Config - give arg types
+  void ADC1_Config();
+..\Lib\ADC.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Lib\DMA.h(5): warning:  #1295-D: Deprecated declaration DMA_Init - give arg types
+  void DMA_Init();
+..\Lib\DMA.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Lib\USART.h(4): warning:  #1295-D: Deprecated declaration USART1_Config - give arg types
+  void USART1_Config();
+..\Lib\USART.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Lib\TIM.h(4): warning:  #1295-D: Deprecated declaration Tim1_PWM_Config - give arg types
+  void Tim1_PWM_Config();
+..\Lib\TIM.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c(106): warning:  #1-D: last line of file ends without a newline
+  }
+../Core/Src/main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=6928 RO-data=308 RW-data=144 ZI-data=5016  
+FromELF: creating hex file...
+"Test_FreeRtos\Test_FreeRtos.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\stm32project\Test_FreeRtos\MDK-ARM\RTE
+  D:\KeiC_pack\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\KeiC_pack\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
